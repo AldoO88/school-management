@@ -1,0 +1,44 @@
+{
+  "Home": {
+    "brandName": "Secundaria Técnica 42",
+    "nav": {
+      "educationalOffer": "Oferta Educativa",
+      "gallery": "Galería",
+      "contact": "Contacto",
+      "login": "Iniciar Sesión"
+    },
+  "hero": {
+      "title": "Educación Técnica para un Futuro Brillante",
+      "subtitle": "Formando a los líderes y técnicos del mañana con disciplina, innovación y valores."
+    },
+    "comingSoon": "Próximamente más contenido"
+  },
+  "StudentForm": {
+    "title": "Crear un Nuevo Alumno",
+    "nameLabel": "Nombre",
+    "lastNameLabel": "Apellido Paterno",
+    "mothersLastName": "Apellido Materno",
+    "saveButton": "Guardar Alumno"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio.",
+    "min": "El valor es demasiado corto.",
+    "max": "El valor es demasiado largo.",
+    "unique": "Este valor ya existe y debe ser único.",
+    "duplicate_key": "Ya existe un registro con este valor (CURP o Matrícula).",
+    "server_error": "Ocurrió un error en el servidor."
+  },
+  "studentStatuses": {
+    "ACTIVE": "Activo",
+    "INACTIVE": "Inactivo",
+    "GRADUATED": "Egresado",
+    "WITHDRAWN": "Baja"
+  },
+  "studentTutorParent": {
+    "Pather": "Padre",
+    "Mother": "Madre",
+    "Legal Tutor": "Tutor Legal",
+    "Other": "Otro"
+
+  }
+}

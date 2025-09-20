@@ -1,0 +1,43 @@
+{
+  "Home": {
+    "brandName": "Technical High School 42",
+    "nav": {
+      "educationalOffer": "Educational Offer",
+      "gallery": "Gallery",
+      "contact": "Contact",
+      "login": "Log In"
+    },
+    "hero": {
+      "title": "Technical Education for a Bright Future",
+      "subtitle": "Shaping tomorrow's leaders and technicians with discipline, innovation, and values."
+    },
+    "comingSoon": "More content coming soon"
+  },
+  "StudentForm": {
+    "title": "Create a New Student",
+    "nameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "mothersLastName": "Mother's Last Name",
+    "saveButton": "Save Student"
+  },
+  "errors": {
+    "required": "This field is required.",
+    "min": "The value is too short.",
+    "max": "The value is too long.",
+    "unique": "This value already exists and must be unique.",
+    "duplicate_key": "A record with this value already exists (CURP or ID).",
+    "server_error": "A server error occurred."
+  },
+  "studentStatuses": {
+    "ACTIVE": "Active",
+    "INACTIVE": "Inactive",
+    "GRADUATED": "Graduated",
+    "WITHDRAWN": "Withdrawn"
+  },
+  "studentTutorParent": {
+    "Pather": "Pather",
+    "Mother": "Mother",
+    "Legal Tutor": "Legal Tutor",
+    "Other": "Other"
+  }
+}
