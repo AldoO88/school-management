@@ -1,6 +1,6 @@
 {
   "Home": {
-    "brandName": "Technical High School 42",
+    "brandName": "Technical High School 47",
     "nav": {
       "educationalOffer": "Educational Offer",
       "gallery": "Gallery",
@@ -9,9 +9,41 @@
     },
     "hero": {
       "title": "Technical Education for a Bright Future",
-      "subtitle": "Shaping tomorrow's leaders and technicians with discipline, innovation, and values."
+      "subtitle": "Shaping tomorrow's leaders and technicians with discipline, innovation, and values.",
+      "image": "Front view of Technical High School 47"
     },
-    "comingSoon": "More content coming soon"
+    "systemName": "School Management System"
+  },
+  "LoginPage": {
+    "title": "Log In",
+    "subtitle": "Access the administration panel",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "submitButton": "Log In",
+    "loading": "Loading...",
+    "defaultError": "An unexpected error occurred.",
+    "errorsLoginForm": {
+      "required": "This field is required.",
+      "min": "The value is too short.",
+      "max": "The value is too long.",
+      "unique": "This value already exists and must be unique.",
+      "duplicate_key": "A record with this value already exists (CURP or ID).",
+      "server_error": "A server error occurred."
+    },
+    "errorsLoginApi": {
+      "invalid_credentials": "The email or password are incorrect.",
+      "server_error": "An unexpected error occurred, please try again."
+   }
+  },
+  "Dashboard": {
+    "loading": "Verifying session...",
+    "welcome": "Welcome, {name}",
+    "role": "Role: {role}",
+    "logoutButton": "Log Out",
+    "totalStudents": "Total Students",
+    "quickActions": "Quick Actions",
+    "registerStudent": "Register Student",
+    "searchStudent": "Search Student"
   },
   "StudentForm": {
     "title": "Create a New Student",
@@ -20,7 +52,7 @@
     "mothersLastName": "Mother's Last Name",
     "saveButton": "Save Student"
   },
-  "errors": {
+  "errorsFormStudent": {
     "required": "This field is required.",
     "min": "The value is too short.",
     "max": "The value is too long.",

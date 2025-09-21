@@ -1,18 +1,51 @@
 {
   "Home": {
-    "brandName": "Secundaria Técnica 42",
+    "brandName": "Escuela Secundaria Técnica 47",
     "nav": {
       "educationalOffer": "Oferta Educativa",
       "gallery": "Galería",
       "contact": "Contacto",
       "login": "Iniciar Sesión"
     },
-  "hero": {
+    "hero": {
       "title": "Educación Técnica para un Futuro Brillante",
-      "subtitle": "Formando a los líderes y técnicos del mañana con disciplina, innovación y valores."
+      "subtitle": "Formando a los líderes y técnicos del mañana con disciplina, innovación y valores.",
+      "image": "Vista frontal de la Escuela Secundaria Técnica 47"
     },
-    "comingSoon": "Próximamente más contenido"
+    "systemName": "Sistema de Gestion Escolar"
   },
+  "LoginPage": {
+    "title": "Iniciar Sesión",
+    "subtitle": "Accede al panel de administración",
+    "emailLabel": "Correo Electrónico",
+    "passwordLabel": "Contraseña",
+    "submitButton": "Entrar",
+    "loading": "Cargando...",
+    "defaultError": "Ocurrió un error inesperado.",
+    "errorsLoginForm": {
+      "required": "Este campo es obligatorio.",
+      "min": "El valor es demasiado corto.",
+      "max": "El valor es demasiado largo.",
+      "unique": "Este valor ya existe y debe ser único.",
+      "duplicate_key": "Ya existe un registro con este valor (CURP o Matrícula).",
+      "server_error": "Ocurrió un error en el servidor."
+    },
+    "errorsLoginApi": {
+      "invalid_credentials": "El correo o la contraseña son incorrectos.",
+      "server_error": "Ocurrió un error inesperado, por favor intenta de nuevo."
+    }
+  },
+  "Dashboard": {
+    "loading": "Verificando sesión...",
+    "welcome": "Bienvenido(a), {name}",
+    "role": "Rol: {role}",
+    "logoutButton": "Cerrar Sesión",
+    "totalStudents": "Total de Alumnos",
+    "quickActions": "Acciones Rápidas",
+    "registerStudent": "Registrar Alumno",
+    "searchStudent": "Buscar Alumno"
+  },
+  
   "StudentForm": {
     "title": "Crear un Nuevo Alumno",
     "nameLabel": "Nombre",
@@ -20,7 +53,7 @@
     "mothersLastName": "Apellido Materno",
     "saveButton": "Guardar Alumno"
   },
-  "errors": {
+  "errorsFormStudent": {
     "required": "Este campo es obligatorio.",
     "min": "El valor es demasiado corto.",
     "max": "El valor es demasiado largo.",

@@ -13,7 +13,7 @@ export default function LocaleSwitcher() {
       {/* 3. La UI sigue igual, pero ahora llama a la función del hook */}
       <button
         onClick={() => changeLocale(currentLocale === 'es' ? 'en' : 'es')}
-        className="flex items-center gap-2 bg-white text-red-800 font-semibold py-1.5 px-3 rounded-md hover:bg-gray-100 transition-colors"
+        className="flex items-center gap-2 bg-white text-red-800 font-semibold py-1.5 px-3 rounded-md hover:bg-gray-100 transition-colors cursor-pointer"
       >
         <Globe size={18} />
         <span>{currentLocale === 'es' ? 'English' : 'Español'}</span>
