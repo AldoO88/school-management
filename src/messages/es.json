@@ -5,7 +5,8 @@
       "educationalOffer": "Oferta Educativa",
       "gallery": "Galería",
       "contact": "Contacto",
-      "login": "Iniciar Sesión"
+      "login": "Iniciar Sesión",
+      "logout": "Cerrar Sesión"
     },
     "hero": {
       "title": "Educación Técnica para un Futuro Brillante",
@@ -43,9 +44,57 @@
     "totalStudents": "Total de Alumnos",
     "quickActions": "Acciones Rápidas",
     "registerStudent": "Registrar Alumno",
-    "searchStudent": "Buscar Alumno"
+    "searchStudent": "Buscar Alumno",
+    "sidebar": {
+      "Dashboard": "Dashboard",
+      "academicManagement": "Gestión Académica",
+      "students": "Alumnos",
+      "grades": "Calificaciones",
+      "subjects": "Materias",
+      "schedules": "Horarios",
+      "communityManagement": "Gestión de Comunidad",
+      "staff": "Personal",
+      "tutors": "Tutores",
+      "studentTracking": "Seguimiento Estudiantil",
+      "conductReports": "Reportes de Conducta",
+      "systemConfiguration": "Configuración",
+      "schoolYears": "Ciclos Escolares",
+      "settings": "Ajustes"
+    },
+    "students": {
+      "title": "Gestión de Alumnos",
+      "addButton": "Añadir Alumno",
+      "loading": "Cargando alumnos...",
+      "deleteConfirm": "¿Estás seguro de que quieres eliminar a este alumno? Esta acción no se puede deshacer.",
+      "table": {
+        "name": "Nombre",
+        "grade": "Grado y Grupo",
+        "tutor": "Tutor",
+        "status": "Estatus",
+        "actions": "Acciones"
+      },
+      "form": {
+        "title": "Registrar Nuevo Alumno",
+        "tutorSection": "Datos del Tutor",
+        "tutorName": "Nombre Completo del Tutor",
+        "tutorPhone": "Teléfono del Tutor",
+        "tutorEmail": "Email del Tutor (Opcional)",
+        "studentSection": "Datos del Alumno",
+        "firstName": "Nombres",
+        "paternalLastName": "Apellido Paterno",
+        "maternalLastName": "Apellido Materno (Opcional)",
+        "CURP": "CURP",
+        "noControl": "Número de Control",
+        "grade1": "1er Grado",
+        "grade2": "2do Grado",
+        "grade3": "3er Grado",
+        "group": "Grupo",
+        "cancelButton": "Cancelar",
+        "saveButton": "Guardar Alumno",
+        "saving": "Guardando..."
+      }
+    }
   },
-  
   "StudentForm": {
     "title": "Crear un Nuevo Alumno",
     "nameLabel": "Nombre",

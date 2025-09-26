@@ -5,7 +5,8 @@
       "educationalOffer": "Educational Offer",
       "gallery": "Gallery",
       "contact": "Contact",
-      "login": "Log In"
+      "login": "Log In",
+      "logout": "Log Out"
     },
     "hero": {
       "title": "Technical Education for a Bright Future",
@@ -43,7 +44,56 @@
     "totalStudents": "Total Students",
     "quickActions": "Quick Actions",
     "registerStudent": "Register Student",
-    "searchStudent": "Search Student"
+    "searchStudent": "Search Student",
+    "sidebar": {
+      "Dashboard": "Dashboard",
+      "academicManagement": "Academic Management",
+      "students": "Students",
+      "grades": "Grades",
+      "subjects": "Subjects",
+      "schedules": "Schedules",
+      "communityManagement": "Community Management",
+      "staff": "Staff",
+      "tutors": "Tutors",
+      "studentTracking": "Student Tracking",
+      "conductReports": "Conduct Reports",
+      "systemConfiguration": "Configuration",
+      "schoolYears": "School Years",
+      "settings": "Settings"
+    },
+    "students": {
+      "title": "Student Management",
+      "addButton": "Add Student",
+      "loading": "Loading students...",
+      "deleteConfirm": "Are you sure you want to delete this student? This action cannot be undone.",
+      "table": {
+        "name": "Name",
+        "grade": "Grade & Group",
+        "tutor": "Tutor",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "form": {
+        "title": "Register New Student",
+        "tutorSection": "Tutor's Information",
+        "tutorName": "Tutor's Full Name",
+        "tutorPhone": "Tutor's Phone",
+        "tutorEmail": "Tutor's Email (Optional)",
+        "studentSection": "Student's Information",
+        "firstName": "First Name(s)",
+        "paternalLastName": "Paternal Last Name",
+        "maternalLastName": "Maternal Last Name (Optional)",
+        "CURP": "CURP",
+        "noControl": "Control Number",
+        "grade1": "1st Grade",
+        "grade2": "2nd Grade",
+        "grade3": "3rd Grade",
+        "group": "Group",
+        "cancelButton": "Cancel",
+        "saveButton": "Save Student",
+        "saving": "Saving..."
+      }
+    }
   },
   "StudentForm": {
     "title": "Create a New Student",

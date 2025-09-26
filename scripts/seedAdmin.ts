@@ -10,8 +10,8 @@ dotenv.config({ path: './.env.local' });
 const MONGO_URI = process.env.MONGODB_URI;
 
 // --- DEFINE AQUÍ LOS DATOS DE TU SUPER ADMIN ---
-const ADMIN_EMAIL = 'admin@escuela.com';
-const ADMIN_PASSWORD = 'una_contraseña_muy_segura'; // Cámbiala por una contraseña fuerte
+const ADMIN_EMAIL = 'aldogonjuarez@gmail.com'; // Cámbiala por tu email
+const ADMIN_PASSWORD = 'aldoogj198802042'; // Cámbiala por una contraseña fuerte
 // ---------------------------------------------
 
 const seedAdmin = async () => {
@@ -40,7 +40,7 @@ const seedAdmin = async () => {
 
     // 3. Crear el nuevo usuario
     const adminUser = new Staff({
-      fullName: 'Administrador del Sistema',
+      fullName: 'Aldo Omar Gonzalez Juarez',
       email: ADMIN_EMAIL,
       password: hashedPassword,
       role: 'SUPER_ADMIN', // Asegúrate de que este rol exista en tu enum del modelo

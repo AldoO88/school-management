@@ -6,10 +6,7 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
 const handler: NextApiHandler = async (req, res) => {
-   console.log('Entrando a login antes del if');
   if (req.method !== 'POST') return res.status(405).end();
-
-  console.log('Entrando a login');
 
   await connectToDatabase();
 
