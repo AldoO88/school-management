@@ -1,4 +1,5 @@
 // src/lib/authMiddleware.ts
+// Middleware para proteger rutas de la API con autenticación 
 import type { NextApiRequest, NextApiResponse, NextApiHandler } from 'next';
 import jwt from 'jsonwebtoken';
 
@@ -10,8 +11,8 @@ interface AuthenticatedRequest extends NextApiRequest {
   };
 }
 
-export const withAuth = (handler: NextApiHandler) => {
-  return async (req: AuthenticatedRequest, res: NextApiResponse) => {
+export const withAuth = (handler: NextApiHandler) => { // <-- 2. Exportamos el handler con el middleware: qué es el handler? es la función que maneja la petición de la API (en este caso, la ruta /api/auth/verify)
+  return async (req: AuthenticatedRequest, res: NextApiResponse) => { // <-- 3. Retornamos una nueva función que envuelve al handler original y que verifica el token antes de llamar al handler original
     try {
       // 1. Extraer el token de la cabecera 'Authorization'
       const authHeader = req.headers.authorization;

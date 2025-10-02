@@ -12,7 +12,7 @@ const MONGO_URI = process.env.MONGODB_URI;
 // --- DEFINE AQUÍ LOS DATOS DE TU SUPER ADMIN ---
 const ADMIN_EMAIL = 'aldogonjuarez@gmail.com'; // Cámbiala por tu email
 const ADMIN_PASSWORD = 'aldoogj198802042'; // Cámbiala por una contraseña fuerte
-// ---------------------------------------------
+// ----------------------------------------------------
 
 const seedAdmin = async () => {
   if (!MONGO_URI) {
